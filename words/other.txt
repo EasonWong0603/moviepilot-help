@@ -1,0 +1,46 @@
+#
+# 自定义制作组/字幕组
+#
+
+lloup
+VCB-Studio
+[VCB-Studio]
+MNHD-FRDS
+HDSWEB
+Tabisuru Shima Rin
+[ANi]
+AnimeS@ADWeb
+ADWeb
+(?<=264\-)\w+(?=\.mkv);(?<=265\-)\w+(?=\.mkv)
+(?<=264\-)\w+(?=\.mp4);(?<=265\-)\w+(?=\.mp4)
+
+#
+# 自定义占位符
+#
+
+(?<=1080p\.).*(?=\.WEB-DL);(?<=2160p\.).*(?=\.WEB-DL)
+(?<=1080p\.).*(?=\.WEBRip);(?<=2160p\.).*(?=\.WEBRip)
+\b(Baha|CR|B-Global|ABEMA|MyVideo|AMZN|KKTV|friDay|DSNP|LINETV|Crunchyroll|IQ|Hulu|HQ|60fps|Paramount+|LineTV|Linetv|Disney+|FriDay|HMAX|MAX|NF|IQY|IQ|TX|WeTV|YT|YK|Migu|Mgtv|Bilibili|Sohu|Xigua|iTunes)\b
+
+#
+# 文件整理屏蔽词
+#
+
+SPs
+CDs
+Scans
+Previews
+Extras
+Menu
+Bonus
+映像特典
+Theatre
+NCOP
+Special Ending Movie
+\[((TV|BD|\bBlu-ray\b)?\s*CM\s*\d{2,3})\]
+\[Teaser.*?\]
+\[PV.*?\]
+\[NC[OPED]+.*?\]
+\[S\d+\s+Recap(\s+\d+)?\]
+予告
+Next(\d*)

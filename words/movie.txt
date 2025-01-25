@@ -1,0 +1,14 @@
+#
+### 屏蔽词
+### 被替换词 => 替换词
+### 前定位词 <> 后定位词 >> 集偏移量（EP）
+### 被替换词 => 替换词 && 前定位词 <> 后定位词 >> 集偏移量（EP）
+### 其中替换词支持格式：{[tmdbid/doubanid=xxx;type=movie/tv;s=xxx;e=xxx]} 直接指定TMDBID/豆瓣ID识别，其中s、e为季数和集数（可选）
+#
+# 电影
+#
+# 西班牙城堡 (2008) Un.chateau.en.Espagne.AKA.My.Very.Best.Friend.2007.DVDRip.DD5.1.x264
+Un.chateau.en.Espagne => {[tmdbid=58687;type=movie]}
+#
+# 出走的决心 (2024) Like.A.Rolling.Stone.2024.2160p.WEB-DL.H265.DV.DTS5.1-CHDWEB
+Like.A.Rolling.Stone.2024 => {[tmdbid=1324509;type=movie]}

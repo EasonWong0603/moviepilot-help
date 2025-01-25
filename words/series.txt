@@ -1,0 +1,30 @@
+#
+### 屏蔽词
+### 被替换词 => 替换词
+### 前定位词 <> 后定位词 >> 集偏移量（EP）
+### 被替换词 => 替换词 && 前定位词 <> 后定位词 >> 集偏移量（EP）
+### 其中替换词支持格式：{[tmdbid/doubanid=xxx;type=movie/tv;s=xxx;e=xxx]} 直接指定TMDBID/豆瓣ID识别，其中s、e为季数和集数（可选）
+#
+# 剧集
+#
+# 辛普森：美国制造 (2016) O.J.Made.In.America.Part1.2016.1080p.Blu-ray.x265.10bit.AC3￡cXcY@FRDS
+O.J.Made.In.America.Part([1-5]) => O.J.Made.In.America.S01E0\1
+#
+# 白夜追凶 (2017) 白夜破晓.Day.and.Night.S02E01.2024.2160p.WEB-DL.DDP2.0.H265-Pure@HDSWEB
+白夜破晓 => {[tmdbid=73982;type=tv;s=2]}
+#
+# 异人之下之决战.碧游村.I.Am.Nobody.The.showdown.between.Yin.Yang.S02E08.2023.2160p.WEB-DL.H265.HQ.60fps.AAC-HHWEB
+异人之下之决战.碧游村 => {[tmdbid=225941;type=tv;s=2]}
+#
+# 怦然心动20岁 Twinkle.Love.2024.S04E01.Part1.2160p.WEB-DL.H265.AAC-PTerWEB
+Twinkle.Love.2024.S04E(0[1-9]|10).Part1 => Twinkle.Love.2024.S04E\1 && S04E <> 2160p >> EP*2-1
+Twinkle.Love.2024.S04E(0[1-9]|10).Part2 => Twinkle.Love.2024.S04E\1 && S04E <> 2160p >> EP*2
+#
+# 喜人奇妙夜
+### [喜人奇妙夜].Amazing.Night.S01E00.2024.2160p.WEB-DL.H265.AAC-OurTV
+Amazing.Night.S01E00 => Amazing.Night.2024.S00E02
+### [喜人奇妙夜].Amazing.Night.S01E01.2024.Part1.2160p.WEB-DL.H265.AAC-OurTV
+Amazing.Night.S01E(0[1-9]|1[0-2]).2024.Part1 => Amazing.Night.2024.S01E\1 && S01E <> 2160p >> EP*2-1
+Amazing.Night.S01E(0[1-9]|1[0-2]).2024.Part2 => Amazing.Night.2024.S01E\1 && S01E <> 2160p >> EP*2
+### [喜人奇妙夜].Amazing.Night.S01E01.2024.Performance.2160p.WEB-DL.H265.AAC-OurTV
+Amazing.Night.S01E(0[1-9]|10).2024.Performance => Amazing.Night.2024.S00E\1 && S00E <> 2160p >> EP*5-2
