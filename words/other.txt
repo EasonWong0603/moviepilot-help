@@ -3,16 +3,27 @@
 #
 
 lloup
-VCB-Studio
-[VCB-Studio]
-MNHD-FRDS
-HDSWEB
 Tabisuru Shima Rin
 [ANi]
-AnimeS@ADWeb
-ADWeb
 (?<=264\-)\w+(?=\.mkv);(?<=265\-)\w+(?=\.mkv)
 (?<=264\-)\w+(?=\.mp4);(?<=265\-)\w+(?=\.mp4)
+VCB-Studio
+[VCB-Studio]
+7³ACG
+[7³ACG]
+7³ACG@OurBits
+[7³ACG@OurBits]
+REE
+Wrandz
+FraMeSToR
+MagicStar
+G00DB0Y
+cfandora
+FROGWeb
+FROGE
+MWeb
+RLWeb
+ZmWeb
 
 #
 # 自定义占位符
@@ -20,27 +31,24 @@ ADWeb
 
 (?<=1080p\.).*(?=\.WEB-DL);(?<=2160p\.).*(?=\.WEB-DL)
 (?<=1080p\.).*(?=\.WEBRip);(?<=2160p\.).*(?=\.WEBRip)
-\b(Baha|CR|B-Global|ABEMA|MyVideo|AMZN|KKTV|friDay|DSNP|LINETV|Crunchyroll|IQ|Hulu|HQ|60fps|Paramount+|LineTV|Linetv|Disney+|FriDay|HMAX|MAX|NF|IQY|IQ|TX|WeTV|YT|YK|Migu|Mgtv|Bilibili|Sohu|Xigua|iTunes)\b
+# 源
+\b(Baha|BG|CR)\b
+\b(MyVideo|LINETV|KKTV|FriDay|LiTV|GagaOOLala|NowPlay)\b
+\b(AMZN|ATVP|DSNP|iP|FOX|Hami|HBO|HMAX|HULU|iT|NF|PMTP|MAX|TVING|YT)\b
+\b(IQY|IQ|TX|WeTV|YK|Migu|Mgtv|Bilibili|Sohu|Xigua)\b
+# 视频参数
+\b(HQ|120fps|60fps|30fps|50fps)\b
 
 #
 # 文件整理屏蔽词
 #
 
-SPs
-CDs
-Scans
-Previews
-Extras
-Menu
-Bonus
-映像特典
-Theatre
-NCOP
-Special Ending Movie
+__\w{6}/
 \[((TV|BD|\bBlu-ray\b)?\s*CM\s*\d{2,3})\]
 \[Teaser.*?\]
 \[PV.*?\]
+#\[\d{2}.\d\]
 \[NC[OPED]+.*?\]
 \[S\d+\s+Recap(\s+\d+)?\]
-予告
-Next(\d*)
+\b(CDs|SPs|Scans|Preview|Menu|Bonus|映像特典|映像|Special Ending Movie|specials|特典CD|Menu|Logo|Preview|WiKi.sample|UHD.SAMPLE|/mv)\b
+\b(NC)?(Disc|片头|OP|OVA|OAD|SP|ED|Advice|Trailer|BDMenu|片尾|PV|CM|Preview|MENU|Info|EDPV|SongSpot|BDSpot)(\d{0,2}|_ALL)\b

@@ -7,13 +7,10 @@
 #
 # 剧集
 #
-# 辛普森：美国制造 (2016) O.J.Made.In.America.Part1.2016.1080p.Blu-ray.x265.10bit.AC3￡cXcY@FRDS
+# 辛普森：美国制造 (2016) (tmdbid-66738) O.J.Made.In.America.Part1.2016.1080p.Blu-ray.x265.10bit.AC3￡cXcY@FRDS
 O.J.Made.In.America.Part([1-5]) => O.J.Made.In.America.S01E0\1
 #
-# 白夜追凶 (2017) 白夜破晓.Day.and.Night.S02E01.2024.2160p.WEB-DL.DDP2.0.H265-Pure@HDSWEB
-白夜破晓 => {[tmdbid=73982;type=tv;s=2]}
-#
-# 异人之下之决战.碧游村.I.Am.Nobody.The.showdown.between.Yin.Yang.S02E08.2023.2160p.WEB-DL.H265.HQ.60fps.AAC-HHWEB
+# 异人之下 (2023) (tmdbid-225941) 异人之下之决战.碧游村.I.Am.Nobody.The.showdown.between.Yin.Yang.S02E08.2023.2160p.WEB-DL.H265.HQ.60fps.AAC-HHWEB
 异人之下之决战.碧游村 => {[tmdbid=225941;type=tv;s=2]}
 #
 # 怦然心动20岁 Twinkle.Love.2024.S04E01.Part1.2160p.WEB-DL.H265.AAC-PTerWEB
@@ -28,3 +25,11 @@ Amazing.Night.S01E(0[1-9]|1[0-2]).2024.Part1 => Amazing.Night.2024.S01E\1 && S01
 Amazing.Night.S01E(0[1-9]|1[0-2]).2024.Part2 => Amazing.Night.2024.S01E\1 && S01E <> 2160p >> EP*2
 ### [喜人奇妙夜].Amazing.Night.S01E01.2024.Performance.2160p.WEB-DL.H265.AAC-OurTV
 Amazing.Night.S01E(0[1-9]|10).2024.Performance => Amazing.Night.2024.S00E\1 && S00E <> 2160p >> EP*5-2
+#
+# 求安慰少年 (2023) (tmdbid-220521)
+A.Shoulder.To.Cry.On.S01E08 => A.Shoulder.To.Cry.On.S00E01
+A.Shoulder.To.Cry.On.S01E09 => A.Shoulder.To.Cry.On.S00E02
+#
+# 中央广播电视总台春节联欢晚会 (1983) (tmdbid-119007)
+### CCTV-8K.CMG.2025.Spring.Festival.Gala.20250128.4320p.50fps.UHDTV.AVS3.10bit.HLG.MPEG-QHstudIo
+(.*)CMG(.*)Spring.Festival.Gala(\d*) => 中央广播电视总台春节联欢晚会.S43E01
