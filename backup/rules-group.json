@@ -1,0 +1,26 @@
+[
+  {
+    "name": "严格前置过滤",
+    "rule_string": "filterGlobal&filerGroup& !DOLBY & !3D &live",
+    "media_type": "",
+    "category": ""
+  },
+  {
+    "name": "宽松前置过滤",
+    "rule_string": "filterGlobal&filerGroup& !3D &live",
+    "media_type": "",
+    "category": ""
+  },
+  {
+    "name": "日漫",
+    "rule_string": " 4K & SPECSUB & REMUX > 4K & CNSUB & REMUX > 1080P & SPECSUB & REMUX > 1080P & CNSUB & REMUX > 4K & SPECSUB & WEBDL > 1080P & SPECSUB & WEBDL > 4K & CNSUB & WEBDL &CR> 1080P & CNSUB & WEBDL &CR> 4K & CNSUB & WEBDL &BG> 4K & CNSUB & WEBDL > 4K > 1080P & CNSUB & WEBDL &BG> 1080P & CNSUB & WEBDL > 1080P > 720P ",
+    "media_type": "电视剧",
+    "category": "日漫"
+  },
+  {
+    "name": "通用",
+    "media_type": "",
+    "category": "",
+    "rule_string": " 4K & SPECSUB & REMUX > 4K & CNSUB & REMUX > 1080P & SPECSUB & REMUX > 1080P & CNSUB & REMUX > 4K & SPECSUB & WEBDL > 4K & CNSUB & WEBDL &HQ&10bit&fps> 4K & CNSUB & WEBDL &HQ&10bit> 4K & CNSUB & WEBDL &HQ&fps> 4K & CNSUB & WEBDL &HQ> 4K & CNSUB & WEBDL & HDR > 4K & CNSUB & WEBDL &10bit&fps> 4K & CNSUB & WEBDL &10bit> 4K & CNSUB & WEBDL &fps> 4K & CNSUB & WEBDL > 4K > 1080P & SPECSUB & WEBDL > 1080P & CNSUB & WEBDL & HDR > 1080P & CNSUB & WEBDL > 1080P > 720P "
+  }
+]
