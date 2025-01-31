@@ -12,15 +12,63 @@
     "category": ""
   },
   {
-    "name": "日漫",
-    "rule_string": " 4K & SPECSUB & REMUX > 4K & CNSUB & REMUX > 1080P & SPECSUB & REMUX > 1080P & CNSUB & REMUX > 4K & SPECSUB & WEBDL > 1080P & SPECSUB & WEBDL > 4K & CNSUB & WEBDL &CR> 1080P & CNSUB & WEBDL &CR> 4K & CNSUB & WEBDL &BG> 4K & CNSUB & WEBDL > 4K > 1080P & CNSUB & WEBDL &BG> 1080P & CNSUB & WEBDL > 1080P > 720P ",
-    "media_type": "电视剧",
-    "category": "日漫"
+    "name": "电影通用",
+    "media_type": "电影",
+    "category": "",
+    "rule_string": " 4K & SPECSUB & REMUX > 4K & CNSUB & REMUX > 1080P & SPECSUB & REMUX > 1080P & CNSUB & REMUX > 4K & SPECSUB & WEBDL > 4K & CNSUB & WEBDL &HQ&10bit&fps> 4K & CNSUB & WEBDL &HQ&10bit> 4K & CNSUB & WEBDL &HQ&fps> 4K & CNSUB & WEBDL &HQ> 4K & CNSUB & WEBDL & HDR > 4K & CNSUB & WEBDL &10bit&fps> 4K & CNSUB & WEBDL &10bit> 4K & CNSUB & WEBDL &fps> 4K & CNSUB & WEBDL > 4K > 1080P & SPECSUB & WEBDL > 1080P & CNSUB & WEBDL & HDR > 1080P & CNSUB & WEBDL > 1080P > 720P "
   },
   {
-    "name": "通用",
-    "media_type": "",
-    "category": "",
+    "name": "日漫",
+    "media_type": "电视剧",
+    "category": "日漫",
+    "rule_string": " 4K & SPECSUB & REMUX > 4K & CNSUB & REMUX > 1080P & SPECSUB & REMUX > 1080P & CNSUB & REMUX > 4K & SPECSUB & WEBDL > 1080P & SPECSUB & WEBDL > 4K & CNSUB & WEBDL &CR> 1080P & CNSUB & WEBDL &CR> 4K & CNSUB & WEBDL &BG> 4K & CNSUB & WEBDL > 4K > 1080P & CNSUB & WEBDL &BG> 1080P & CNSUB & WEBDL > 1080P > 720P "
+  },
+  {
+    "name": "国漫",
+    "media_type": "电视剧",
+    "category": "国漫",
+    "rule_string": " 4K & SPECSUB & REMUX > 4K & CNSUB & REMUX > 1080P & SPECSUB & REMUX > 1080P & CNSUB & REMUX > 4K & SPECSUB & WEBDL > 4K & CNSUB & WEBDL &HQ&10bit&fps> 4K & CNSUB & WEBDL &HQ&10bit> 4K & CNSUB & WEBDL &HQ&fps> 4K & CNSUB & WEBDL &HQ> 4K & CNSUB & WEBDL & HDR > 4K & CNSUB & WEBDL &10bit&fps> 4K & CNSUB & WEBDL &10bit> 4K & CNSUB & WEBDL &fps> 4K & CNSUB & WEBDL > 4K > 1080P & SPECSUB & WEBDL > 1080P & CNSUB & WEBDL & HDR > 1080P & CNSUB & WEBDL > 1080P > 720P "
+  },
+  {
+    "name": "美漫",
+    "media_type": "电视剧",
+    "category": "美漫",
+    "rule_string": " 4K & SPECSUB & REMUX > 4K & CNSUB & REMUX > 1080P & SPECSUB & REMUX > 1080P & CNSUB & REMUX > 4K & SPECSUB & WEBDL > 4K & CNSUB & WEBDL &HQ&10bit&fps> 4K & CNSUB & WEBDL &HQ&10bit> 4K & CNSUB & WEBDL &HQ&fps> 4K & CNSUB & WEBDL &HQ> 4K & CNSUB & WEBDL & HDR > 4K & CNSUB & WEBDL &10bit&fps> 4K & CNSUB & WEBDL &10bit> 4K & CNSUB & WEBDL &fps> 4K & CNSUB & WEBDL > 4K > 1080P & SPECSUB & WEBDL > 1080P & CNSUB & WEBDL & HDR > 1080P & CNSUB & WEBDL > 1080P > 720P "
+  },
+  {
+    "name": "儿童剧",
+    "media_type": "电视剧",
+    "category": "儿童剧",
+    "rule_string": " 4K & SPECSUB & REMUX > 4K & CNSUB & REMUX > 1080P & SPECSUB & REMUX > 1080P & CNSUB & REMUX > 4K & SPECSUB & WEBDL > 4K & CNSUB & WEBDL &HQ&10bit&fps> 4K & CNSUB & WEBDL &HQ&10bit> 4K & CNSUB & WEBDL &HQ&fps> 4K & CNSUB & WEBDL &HQ> 4K & CNSUB & WEBDL & HDR > 4K & CNSUB & WEBDL &10bit&fps> 4K & CNSUB & WEBDL &10bit> 4K & CNSUB & WEBDL &fps> 4K & CNSUB & WEBDL > 4K > 1080P & SPECSUB & WEBDL > 1080P & CNSUB & WEBDL & HDR > 1080P & CNSUB & WEBDL > 1080P > 720P "
+  },
+  {
+    "name": "纪录片",
+    "media_type": "电视剧",
+    "category": "纪录片",
+    "rule_string": " 4K & SPECSUB & REMUX > 4K & CNSUB & REMUX > 1080P & SPECSUB & REMUX > 1080P & CNSUB & REMUX > 4K & SPECSUB & WEBDL > 4K & CNSUB & WEBDL &HQ&10bit&fps> 4K & CNSUB & WEBDL &HQ&10bit> 4K & CNSUB & WEBDL &HQ&fps> 4K & CNSUB & WEBDL &HQ> 4K & CNSUB & WEBDL & HDR > 4K & CNSUB & WEBDL &10bit&fps> 4K & CNSUB & WEBDL &10bit> 4K & CNSUB & WEBDL &fps> 4K & CNSUB & WEBDL > 4K > 1080P & SPECSUB & WEBDL > 1080P & CNSUB & WEBDL & HDR > 1080P & CNSUB & WEBDL > 1080P > 720P "
+  },
+  {
+    "name": "综艺",
+    "media_type": "电视剧",
+    "category": "综艺",
+    "rule_string": " 4K & SPECSUB & REMUX > 4K & CNSUB & REMUX > 1080P & SPECSUB & REMUX > 1080P & CNSUB & REMUX > 4K & SPECSUB & WEBDL > 4K & CNSUB & WEBDL &HQ&10bit&fps> 4K & CNSUB & WEBDL &HQ&10bit> 4K & CNSUB & WEBDL &HQ&fps> 4K & CNSUB & WEBDL &HQ> 4K & CNSUB & WEBDL & HDR > 4K & CNSUB & WEBDL &10bit&fps> 4K & CNSUB & WEBDL &10bit> 4K & CNSUB & WEBDL &fps> 4K & CNSUB & WEBDL > 4K > 1080P & SPECSUB & WEBDL > 1080P & CNSUB & WEBDL & HDR > 1080P & CNSUB & WEBDL > 1080P > 720P "
+  },
+  {
+    "name": "华语剧",
+    "media_type": "电视剧",
+    "category": "华语剧",
+    "rule_string": " 4K & SPECSUB & REMUX > 4K & CNSUB & REMUX > 1080P & SPECSUB & REMUX > 1080P & CNSUB & REMUX > 4K & SPECSUB & WEBDL > 4K & CNSUB & WEBDL &HQ&10bit&fps> 4K & CNSUB & WEBDL &HQ&10bit> 4K & CNSUB & WEBDL &HQ&fps> 4K & CNSUB & WEBDL &HQ> 4K & CNSUB & WEBDL & HDR > 4K & CNSUB & WEBDL &10bit&fps> 4K & CNSUB & WEBDL &10bit> 4K & CNSUB & WEBDL &fps> 4K & CNSUB & WEBDL > 4K > 1080P & SPECSUB & WEBDL > 1080P & CNSUB & WEBDL & HDR > 1080P & CNSUB & WEBDL > 1080P > 720P "
+  },
+  {
+    "name": "英美剧",
+    "media_type": "电视剧",
+    "category": "英美剧",
+    "rule_string": " 4K & SPECSUB & REMUX > 4K & CNSUB & REMUX > 1080P & SPECSUB & REMUX > 1080P & CNSUB & REMUX > 4K & SPECSUB & WEBDL > 4K & CNSUB & WEBDL &HQ&10bit&fps> 4K & CNSUB & WEBDL &HQ&10bit> 4K & CNSUB & WEBDL &HQ&fps> 4K & CNSUB & WEBDL &HQ> 4K & CNSUB & WEBDL & HDR > 4K & CNSUB & WEBDL &10bit&fps> 4K & CNSUB & WEBDL &10bit> 4K & CNSUB & WEBDL &fps> 4K & CNSUB & WEBDL > 4K > 1080P & SPECSUB & WEBDL > 1080P & CNSUB & WEBDL & HDR > 1080P & CNSUB & WEBDL > 1080P > 720P "
+  },
+  {
+    "name": "日韩剧",
+    "media_type": "电视剧",
+    "category": "日韩剧",
     "rule_string": " 4K & SPECSUB & REMUX > 4K & CNSUB & REMUX > 1080P & SPECSUB & REMUX > 1080P & CNSUB & REMUX > 4K & SPECSUB & WEBDL > 4K & CNSUB & WEBDL &HQ&10bit&fps> 4K & CNSUB & WEBDL &HQ&10bit> 4K & CNSUB & WEBDL &HQ&fps> 4K & CNSUB & WEBDL &HQ> 4K & CNSUB & WEBDL & HDR > 4K & CNSUB & WEBDL &10bit&fps> 4K & CNSUB & WEBDL &10bit> 4K & CNSUB & WEBDL &fps> 4K & CNSUB & WEBDL > 4K > 1080P & SPECSUB & WEBDL > 1080P & CNSUB & WEBDL & HDR > 1080P & CNSUB & WEBDL > 1080P > 720P "
   }
 ]
