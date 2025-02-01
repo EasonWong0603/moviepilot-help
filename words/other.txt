@@ -14,16 +14,15 @@ VCB-Studio
 7³ACG@OurBits
 [7³ACG@OurBits]
 REE
-Wrandz
 FraMeSToR
 MagicStar
-G00DB0Y
 cfandora
 FROGWeb
 FROGE
 MWeb
 RLWeb
 ZmWeb
+CatEDU
 
 #
 # 自定义占位符

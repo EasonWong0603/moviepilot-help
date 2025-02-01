@@ -29,4 +29,8 @@ AnoHana the Movie => {[tmdbid=255413;type=movie]}
 #
 # 进击的巨人 ~觉醒的咆哮~ (2018) (tmdbid-492999)
 # [BDRemux] Shingeki no Kyojin Season 2 Kakusei no Houkou [JP][7³ACG@OurBits]/Shingeki no Kyojin Season 2 Kakusei no Houkou-[1080p][JP.BD.Remux][788-mix].mkv
-Shingeki no Kyojin Season 2 Kakusei no Houkou => {[tmdbid=492999;type=movie]}
+Shingeki no Kyojin Season 2 Kakusei no Houkou- => {[tmdbid=492999;type=movie]}.[7³ACG@OurBits]
+#
+# 鬼灭之刃 无限列车篇 (2020) (tmdbid-635302)
+# [BDRemux] Kimetsu no Yaiba Mugen Ressha Hen [JP][7³ACG@OurBits]/Kimetsu no Yaiba Mugen Ressha Hen-[1080p][BDRemux][cht+chs+jpn+en][788-Remux].mkv
+Kimetsu no Yaiba Mugen Ressha Hen- => {[tmdbid=635302;type=movie]}.[7³ACG@OurBits]
