@@ -54,6 +54,12 @@ A.Shoulder.To.Cry.On.S01E(0[8-9]) => 求安慰少年.A.Shoulder.To.Cry.On.S00E\1
 # 辛普森：美国制造 (2016) (tmdbid-66738)
 # O.J.Made.In.America.Part1.2016.1080p.Blu-ray.x265.10bit.AC3￡cXcY@FRDS
 O.J.Made.In.America.Part([1-5]) => O.J.Made.In.America.S01E0\1
+#
+# 龙樱 (2005) (tmdbid-31816)
+# Dragon.Zakura.2005.EP01.1080p.BluRay.x265.10bit.FLAC.MNHD-FRDS
+Dragon.Zakura.2005.EP(0[1-9]|1[0-1]) => 龙樱.Dragon.Zakura.2005.S01E\1
+# Dragon.Zakura.2021.EP01.1080p.BluRay.x265.10bit.FLAC.MNHD-FRDS
+Dragon.Zakura.2021.EP(0[1-9]|10) => 龙樱.Dragon.Zakura.2005.S02E\1
 
 #
 # 综艺
